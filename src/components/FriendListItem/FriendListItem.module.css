@@ -1,0 +1,27 @@
+.friendItem {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+  }
+  
+  .friendItem img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .friendItem p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .online {
+    color: green;
+  }
+  
+  .offline {
+    color: red;
+  }
